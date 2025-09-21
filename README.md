@@ -36,7 +36,7 @@
   <div class="project-card">
     <h4>Personal Portfolio Website</h4>
     <p>A responsive portfolio showcasing my projects and skills, built with HTML, CSS, and JavaScript.</p>
-    <a href="https://teethaking.github.io" target="_blank">View Live →</a>
+    <a href=["https://github.com/teethaking" target="_blank">View Live →</a>
   </div>
   <div class="project-card">
     <h4>Weather App</h4>
