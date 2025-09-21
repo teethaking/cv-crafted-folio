@@ -40,7 +40,7 @@ const About = () => {
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl font-bold mb-4">About Me</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            I'm an enthusiastic and passionate young coder currently studying at Karji High School. 
+            I'm an enthusiastic and passionate young coder currently studying at National Institute of Technology. 
             With a strong foundation in programming and hands-on experience through internships and freelance work, 
             I'm eager to contribute to innovative software projects.
           </p>
@@ -58,7 +58,7 @@ const About = () => {
             <CardContent>
               <div className="space-y-4">
                 <div>
-                  <h4 className="font-semibold">Karji High School</h4>
+                  <h4 className="font-semibold">National Institute of Technology</h4>
                   <p className="text-muted-foreground">Expected Graduation: June 2026</p>
                   <p className="text-muted-foreground">Kaduna, Nigeria</p>
                   <div className="mt-2">
