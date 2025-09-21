@@ -28,7 +28,7 @@ const Projects = () => {
       description: "Developed a weather application using JavaScript and OpenWeatherMap API to fetch and display weather information based on user input.",
       technologies: ["JavaScript", "API Integration", "CSS", "HTML"],
       liveUrl: "",
-      githubUrl: "",
+      githubUrl: "https://github.com/teethaking/sunny-weather-app",
       featured: false,
       image: "🌤️"
     },
