@@ -1,73 +1,61 @@
-# Welcome to your Lovable project
+### 🎓 Education
+<div class="education-card">
+  <h4>NATIONAL INSTITUTE OF TECHNOLOGY, Kaduna, Nigeria</h4>
+  <p><em>Expected Graduation: June 2026</em></p>
+  <ul>
+    <li>Relevant Coursework: Computer Science, Mathematics, Physics</li>
+    <li>GPA: 3.8/4.0</li>
+    <li>Extracurriculars: Coding Club, Robotics Team, Math Club</li>
+  </ul>
+</div>
 
-## Project info
+### 💼 Professional Experience
+<div class="experience-timeline">
+  <div class="timeline-item">
+    <h4>Freelance Web Developer</h4>
+    <p><em>Self-employed, Kaduna, Nigeria | Jan 2023 – Present</em></p>
+    <ul>
+      <li>Built websites for local businesses and community organizations</li>
+      <li>Conducted client meetings to gather requirements and provide progress updates</li>
+      <li>Delivered customized solutions, ensuring customer satisfaction</li>
+    </ul>
+  </div>
+  <div class="timeline-item">
+    <h4>Summer Coding Intern</h4>
+    <p><em>TechTrend Innovations, Kaduna, Nigeria | June 2024 – August 2024</em></p>
+    <ul>
+      <li>Assisted in developing and testing web applications</li>
+      <li>Contributed to code reviews and collaborated with senior developers</li>
+      <li>Learned version control and project management tools</li>
+    </ul>
+  </div>
+</div>
 
-**URL**: https://lovable.dev/projects/d50129a6-d913-4c77-8602-bcb620bb22fa
+### 🚀 Featured Projects
+<div class="projects-grid">
+  <div class="project-card">
+    <h4>Personal Portfolio Website</h4>
+    <p>A responsive portfolio showcasing my projects and skills, built with HTML, CSS, and JavaScript.</p>
+    <a href="https://teethaking.github.io" target="_blank">View Live →</a>
+  </div>
+  <div class="project-card">
+    <h4>Weather App</h4>
+    <p>Real-time weather application using JavaScript and OpenWeatherMap API for dynamic forecasts.</p>
+    <a href="https://github.com/Teethaking/weather-app" target="_blank">View on GitHub →</a>
+  </div>
+  <div class="project-card">
+    <h4>School Management System</h4>
+    <p>Collaborative Java and MySQL system for managing student data and school records.</p>
+    <a href="https://github.com/Teethaking/school-management" target="_blank">View on GitHub →</a>
+  </div>
+</div>
 
-## How can I edit this code?
+### 🏆 Certifications
+<ul class="certifications-list">
+  <li>Java SE 8 Programmer I, Oracle (2024)</li>
+  <li>Python for Everybody, Coursera (2023)</li>
+  <li>Responsive Web Design, freeCodeCamp (2023)</li>
+</ul>
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/d50129a6-d913-4c77-8602-bcb620bb22fa) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/d50129a6-d913-4c77-8602-bcb620bb22fa) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### 🌍 Languages
+<p><strong>English</strong> (Fluent)</p>
