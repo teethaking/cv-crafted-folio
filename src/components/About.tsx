@@ -67,7 +67,7 @@ const About = () => {
                   <div className="mt-3">
                     <p className="text-sm text-muted-foreground mb-2">Relevant Coursework:</p>
                     <div className="flex flex-wrap gap-2">
-                      {["Computer Science", "Mathematics", "Physics"].map((course) => (
+                      {["React", "Java", "JavaScript"].map((course) => (
                         <Badge key={course} variant="outline">{course}</Badge>
                       ))}
                     </div>
