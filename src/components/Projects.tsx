@@ -19,7 +19,7 @@ const Projects = () => {
       description: "Created a personal portfolio website using HTML, CSS, and JavaScript to showcase projects and skills. Hosted on GitHub Pages.",
       technologies: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
       liveUrl: "https://teethaking.github.io",
-      githubUrl: "https://github.com/Teethaking",
+      githubUrl: "https://github.com/teethaking",
       featured: false,
       image: "💼"
     },
@@ -128,7 +128,7 @@ const Projects = () => {
                 Check out my GitHub for more recent work and contributions.
               </p>
               <Button asChild className="bg-primary hover:bg-primary-hover">
-                <a href="https://github.com/Teethaking" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/teethaking" target="_blank" rel="noopener noreferrer">
                   <Github className="h-4 w-4 mr-2" />
                   View GitHub Profile
                 </a>

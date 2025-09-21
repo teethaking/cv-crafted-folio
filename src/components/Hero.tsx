@@ -50,7 +50,7 @@ const Hero = ({ onPageChange }: HeroProps) => {
               </a>
             </Button>
             <Button variant="ghost" size="icon" asChild>
-              <a href="https://github.com/Teethaking" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/teethaking" target="_blank" rel="noopener noreferrer">
                 <Github className="h-5 w-5" />
               </a>
             </Button>

@@ -35,7 +35,7 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/Teethaking",
+      href: "https://github.com/teethaking",
       color: "bg-gray-800 hover:bg-gray-900"
     }
   ];
