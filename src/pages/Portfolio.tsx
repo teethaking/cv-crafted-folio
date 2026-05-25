@@ -1,7 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
 import profileImage from "@/assets/profile.jpg";
 import {
   ArrowRight,
@@ -192,13 +191,15 @@ const Portfolio = () => {
           className="border border-cyan-300/20 text-cyan-100 lg:hidden"
           onClick={() => setMenuOpen((open) => !open)}
           aria-label="Toggle navigation"
+          aria-expanded={menuOpen}
+          aria-controls="mobile-command-menu"
         >
           {menuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
         </Button>
       </nav>
 
       {menuOpen && (
-        <div className="mobile-command">
+        <div id="mobile-command-menu" className="mobile-command">
           {navItems.map((item) => (
             <button
               key={item.id}
@@ -232,12 +233,12 @@ const Portfolio = () => {
               </div>
 
               <div className="flex flex-col gap-4 sm:flex-row">
-                <Button className="sci-button" onClick={() => jumpTo("projects")}>
+                <button className="sci-button" onClick={() => jumpTo("projects")}>
                   View builds <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
-                <Button className="sci-button-outline" variant="outline" onClick={() => jumpTo("contact")}>
+                </button>
+                <button className="sci-button-outline" onClick={() => jumpTo("contact")}>
                   Send signal <Mail className="ml-2 h-4 w-4" />
-                </Button>
+                </button>
               </div>
 
               <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
@@ -383,8 +384,8 @@ const Portfolio = () => {
 
             <div className="grid gap-5 lg:grid-cols-2">
               {projects.map((project, index) => (
-                <Card key={project.title} className="project-card">
-                  <CardContent className="p-6">
+                <div key={project.title} className="project-card">
+                  <div className="p-6">
                     <div className="flex items-start justify-between gap-4">
                       <div>
                         <div className="text-xs uppercase tracking-[0.35em] text-cyan-300/80">
@@ -405,16 +406,14 @@ const Portfolio = () => {
                       ))}
                     </div>
                     {project.href ? (
-                      <Button asChild className="sci-link mt-6">
-                        <a href={project.href} target="_blank" rel="noopener noreferrer">
-                          Open transmission <Globe2 className="ml-2 h-4 w-4" />
-                        </a>
-                      </Button>
+                      <a href={project.href} target="_blank" rel="noopener noreferrer" className="sci-link mt-6">
+                        Open transmission <Globe2 className="ml-2 h-4 w-4" />
+                      </a>
                     ) : (
                       <div className="mt-6 text-sm uppercase tracking-[0.28em] text-slate-500">Internal lab build</div>
                     )}
-                  </CardContent>
-                </Card>
+                  </div>
+                </div>
               ))}
             </div>
           </div>
@@ -472,16 +471,12 @@ const Portfolio = () => {
                   Internships, entry-level software roles, freelance websites, and collaborative projects.
                 </p>
                 <div className="mt-6 flex flex-col gap-3 sm:flex-row">
-                  <Button asChild className="sci-button">
-                    <a href="mailto:teeagbaji@gmail.com">
-                      Email me <Mail className="ml-2 h-4 w-4" />
-                    </a>
-                  </Button>
-                  <Button asChild variant="outline" className="sci-button-outline">
-                    <a href="https://github.com/teethaking" target="_blank" rel="noopener noreferrer">
-                      GitHub <Github className="ml-2 h-4 w-4" />
-                    </a>
-                  </Button>
+                  <a href="mailto:teeagbaji@gmail.com" className="sci-button">
+                    Email me <Mail className="ml-2 h-4 w-4" />
+                  </a>
+                  <a href="https://github.com/teethaking" target="_blank" rel="noopener noreferrer" className="sci-button-outline">
+                    GitHub <Github className="ml-2 h-4 w-4" />
+                  </a>
                 </div>
               </HoloCard>
             </div>
@@ -509,9 +504,9 @@ const SectionHeader = ({
 );
 
 const HoloCard = ({ children }: { children: React.ReactNode }) => (
-  <Card className="holo-card">
-    <CardContent className="p-6">{children}</CardContent>
-  </Card>
+  <div className="holo-card">
+    <div className="p-6">{children}</div>
+  </div>
 );
 
 const ContactLink = ({
